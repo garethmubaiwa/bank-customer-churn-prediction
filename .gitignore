@@ -1,0 +1,13 @@
+# Python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data and models (prevents uploading large/sensitive files)
+data/raw/
+data/processed/
+models/*.joblib
+
+# OS generated files
+.DS_Store
